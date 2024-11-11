@@ -216,6 +216,21 @@ body{
     background-color: whitesmoke;
 }
 
+.chatbot-form .chatbot-controls #send-message {
+    color: white;
+    display: none;
+    background-color: rgb(221, 182, 221);
+}
+
+.chatbot-form .message-input:valid~.chatbot-controls #send-message {
+    display: block;
+}
+
+.chatbot-form .chatbot-controls #send-message:hover {
+    background-color: rgb(215, 138, 215);
+}
+
+
 .chatbot-form .chatbot-controls button:hover {
     background-color: #fce4fc;
 }
